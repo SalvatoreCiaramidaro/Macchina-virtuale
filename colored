@@ -1,0 +1,7 @@
+from colored import fg, attr
+
+# Testo colorato
+testo_colorato = fg(2) + "Questo è del testo verde!" + attr(0)
+
+# Stampa il testo colorato
+print(testo_colorato)
